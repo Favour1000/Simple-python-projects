@@ -1,0 +1,100 @@
+         /*Header*/
+            header{
+                background-color: rgb(18, 17, 17);
+                background-image: url("images/wednesdayhomepage.jpg");
+                background-size: 100%;
+                background-position: center;
+                padding: 20px;
+                color: white;
+                height: 600px;
+                background-repeat: no-repeat;
+            
+            }
+
+            header .logo a{
+                background-image: url("images/netflixlogo.png");
+                background-size: 120px;
+                background-repeat: no-repeat;
+                position: relative;
+                top:-20px;
+                display: inline-block;
+                text-indent: -999999999px;
+                height: 40px;
+                width: 110px;
+            }
+             /*Responsive rules*/
+            @media screen and (max-width: 1151px) {
+                header{
+                    height: 200px;
+                }
+            }
+          /*Body*/
+            body{
+                background: rgb(18, 17, 17);
+                color: white;
+                font-family: Helvetica Neue, Times New Roman , Helvertica, Arial, Sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+           /*Section1*/
+            .features{
+                background: rgb(18, 17, 17);
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+                gap: 5px;
+            }
+
+            .features h4{
+                position: absolute;
+                top: 610px;
+            }
+  
+            .features img{
+                width: 250px;
+                border-radius: 5px;
+                
+                
+            }
+             /*Responsive rules*/
+            @media screen and (max-width: 1151px) {
+                
+                .features h4{
+                    position: absolute;
+                    top:210px;
+                }
+                .features img{
+                    width: 200px;
+                }
+                
+            }
+       
+/* Nav links */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a:hover {
+    color: rgb(120, 115, 115);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive rules */
+@media screen and (max-width: 1151px) {
+    li {
+        margin: 5px;
+    }
+}
+
